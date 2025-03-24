@@ -1,0 +1,32 @@
+
+@media (max-width:767px){
+    .colour-title{
+        margin-top: 1rem;
+        text-decoration:2px underline;
+        
+    }
+    .all{
+        background: linear-gradient(blue,crimson);
+    }
+}
+@media (min-width:767px) and (max-width:1023px){
+    .colour-title{
+        margin-top: 1rem;
+        text-decoration:2px underline;
+        
+    }
+    .all{
+        background: linear-gradient(blue,crimson);
+    }
+}
+
+@media (min-width:1024px){
+    .colour-title{
+        margin-top: 1rem;
+        text-decoration:2px underline;
+        
+    }
+    .all{
+        background: linear-gradient(blue,crimson);
+    }
+}

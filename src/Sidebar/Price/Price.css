@@ -1,0 +1,31 @@
+@media (max-width:767px){
+    .price-title{
+        margin-top:15px;
+        font-weight: bold;
+    }
+    
+    .ml{
+        margin-left:15px
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    .price-title{
+        margin-top:15px;
+        font-weight: bold;
+    }
+    
+    .ml{
+        margin-left:15px
+    }
+}
+
+@media (min-width:1024px){
+    .price-title{
+        margin-top:15px;
+        font-weight: bold;
+    }
+    .ml{
+        margin-left:15px
+    }
+}
