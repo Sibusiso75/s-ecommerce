@@ -62,7 +62,9 @@ function SignUp() {
 }
   return (
     <Form  style={{margin:"30px"}}noValidate validated={validated} onSubmit={handleSubmit}>
+      <Link style={{color:"black",fontWeight:"bold",float:"right"}} to="/">Browse</Link>
       <h3 >Register</h3>
+      
       <Row className="mb-2">
         <Form.Group as={Col} md="3" controlId="validationCustom01">
           {/* <Form.Label>First name</Form.Label> */}

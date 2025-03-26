@@ -52,7 +52,12 @@ function Login() {
 }
   return (
     <Form  style={{margin:"30px"}}noValidate validated={validated} onSubmit={handleSubmit}>
+      <div >
+
+      <Link style={{color:"black",fontWeight:"bold",float:"right"}} to="/">Browse</Link>
       <h3 >Login</h3>
+      
+      </div>
       <Row className="mb-2">
         <Form.Group as={Col} md="3" controlId="validationCustom01">
           {/* <Form.Label>First name</Form.Label> */}

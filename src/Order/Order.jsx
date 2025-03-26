@@ -6,6 +6,7 @@ import {Link, useNavigate} from "react-router-dom"
 // import { addUser } from '../../../../redux/slices/userslice';
 // import axios from "axios"
 import { toast } from 'react-toastify';
+import { FaArrowLeft } from "react-icons/fa6";
 import { useGlobalContext } from '../Cart/ContextAndReducer/cartContext';
 
 function Order() {
@@ -62,6 +63,7 @@ function Order() {
 }
   return (
     <Form  style={{margin:"30px"}}noValidate validated={validated} onSubmit={handleSubmit}>
+      <FaArrowLeft onClick={()=>navigate("/cart")}/>
       <h3 >Order</h3>
       <Row className="mb-2">
         <Form.Group as={Col} md="3" controlId="validationCustom01">

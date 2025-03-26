@@ -30,10 +30,10 @@ function CartPage() {
       
       <br />
       
-           <main style={{position:"fixed",border:"1px solid black",padding:"10px",right:"5px"}}>
+           <main style={{display:"flex",flexDirection:"column",padding:"10px",marginRight:"5px"}}>
 
       <span className="total">Total Price - ${total}</span>
-      <button  onClick={()=>navigate("/order")} style={{marginLeft:"2%",color:"white",padding:"10px", borderRadius:"10px",width:"fit-content",background:"black"}}>
+      <button  onClick={()=>navigate("/order")} style={{marginRight:"0px",color:"white",padding:"10px", borderRadius:"10px",width:"fit-content",background:"black"}}>
         Proceed to checkout
       </button>
 
@@ -57,7 +57,7 @@ function CartPage() {
       style={{ width: "150px", height: "150px" }}
       />
 
-        <div className="itemsAndButtons">
+        <div  style={{ margin:"10px" }}>
           <main> {item.title}</main>
           <main>{item.details}</main>
           <main>Price - ${item.price}</main>

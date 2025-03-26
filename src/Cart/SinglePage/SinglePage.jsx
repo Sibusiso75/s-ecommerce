@@ -28,7 +28,7 @@ function SinglePage(){
           style={{ width: "90px", height: "90px" }}
         />
 
-        <div className="itemsAndButtons">
+        <div  style={{margin:"10px" }}>
           <p> {item.title},           {item.details}
 </p>
           <p>${item.price}</p>
